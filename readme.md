@@ -1,8 +1,13 @@
-# Generic Express
-This is a project skeleton for node/express project. 
+# Broken Express
+This app allows users to check the rankings of players.
 
-## To do
-This is what you need to make this project work:
-- Choose and add a database package.
-- Choose and add a template package.
-- Write the basics of the app in the `index.js` file.
+## Routes
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | / | Home page |
+| GET | /players | List of players |
+| GET | /players/:id | Player details |
+| GET | /players/all | List of all players |
+| GET | /players/top/:limit | List of top players |
+| GET | /healthcheck | Healthcheck |
+| GET | /healthcheck/full | Full healthcheck |
